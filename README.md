@@ -16,5 +16,3 @@ You can also use these command-line options to customize input file paths:
 # Path to input file for the program, default: program_in
 -DSTDIN_FILE=path/to/your/stdin/file
 ```
-
-Cells aren't byte-sized and are signed. `,` will result in set the current cell to -1 when reading EOF. And moving pointer to the left when the pointer is already at the address `0` will be prohibited and result in fatal error.
